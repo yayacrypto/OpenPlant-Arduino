@@ -1,5 +1,5 @@
 # OpenPlant Arduino
-
+![OpenPlant Arduino - Smart Plant Watering System](openplant-preview.png)
 An open-source, beginner-friendly plant monitoring and low-voltage watering controller for Arduino.
 
 OpenPlant reads a soil-moisture sensor, reports readings over Serial, and can switch a **low-voltage** pump through a compatible relay or MOSFET driver when the soil becomes too dry. It uses separate ON/OFF thresholds (hysteresis) to reduce rapid switching and includes a maximum pump-run timer as a basic safety limit.
